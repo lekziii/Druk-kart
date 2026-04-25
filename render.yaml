@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: drukart
+    env: static
+    buildCommand: npm install
+    staticPublishDir: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-app",
+  "version": "1.0.0",
+  "description": "Simple e-commerce app",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}
